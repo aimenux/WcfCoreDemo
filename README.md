@@ -1,0 +1,2 @@
+# WcfCoreDemo
+Playing with WcfCore
