@@ -1,4 +1,6 @@
-﻿public static class SoapServiceEndpoints
+﻿namespace Api;
+
+public static class SoapServiceConstants
 {
     public static class Http
     {

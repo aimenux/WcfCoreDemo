@@ -1,5 +1,5 @@
 ﻿using Api;
-using static SoapServiceEndpoints;
+using static Api.SoapServiceConstants;
 
 var builder = WebApplication.CreateBuilder();
 

@@ -1,8 +1,9 @@
-﻿using App;
+﻿using System;
+using App;
 using App.SoapService;
-using static SoapServiceEndpoints;
+using static App.SoapServiceConstants;
 
-var client = new SoapServiceClient(Https.Configuration, Https.Address);
+await using var client = new SoapServiceClient(Https.Configuration, Https.Address);
 
 var soapLogger = new SoapLogger();
 var soapInspector = new SoapLoggingClientMessageInspector(soapLogger);
